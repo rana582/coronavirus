@@ -1,0 +1,692 @@
+.nicescroll-rails-vr .nicescroll-cursors {
+    background-image: linear-gradient(45deg, rgba(18, 1, 1, 0.893) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+    animation: pace-stripe-animation 500ms linear infinite;
+    background-size: 20px 20px;
+}
+
+@keyframes pace-stripe-animation {
+    from {
+        background-position-y: 0;
+    }
+
+    to {
+        background-position-y: 100%;
+    }
+}
+
+@media (max-width:750px) {
+    .container .row h1 {
+        margin-top: 50px;
+    }
+    #contentt{
+
+        overflow: hidden;
+    }  
+    #contentt #dark{
+        font-size: 10px;
+    } 
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h6 {
+        font-size: 20px;
+    }
+
+    .container .collapse ul {
+        text-align: center;
+        background-color:#4961A2;
+    }
+
+    .container .row .list-group li a {
+        text-decoration: none;
+        font-size: 10px;
+        font-weight: bold;
+        color: black;
+    }
+
+
+}
+
+.container ul {
+    margin-left: 20px;
+    margin: auto;
+
+}
+
+.container li {
+    margin-left: 20px;
+}
+
+.navbar-brand {
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+}
+.navbar-brand img{
+    max-width: 30px;
+}
+.container ul {
+    text-transform: capitalize;
+    position: fixed;
+    right: 0px;
+ 
+}
+
+.container li a {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.navbar-brand span {
+    color: rgb(80, 76, 85);
+}
+
+.container .row .oneh {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    color: #031930;
+    text-align: center;
+    
+} 
+.container text-center{
+    background-color: #F7CBCA;
+}
+
+
+
+.container .row h1 span {
+    color: #0f4e96;
+}
+
+
+.container .row p {
+
+    text-transform: capitalize;
+    font-size: 20px;
+    color: brown;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.container .row a {
+
+    margin: 30px;
+    font-size: 25px;
+    
+}
+
+.container .row h5 {
+    color: #0077ff;
+}
+
+.container .row h3 {
+    color: #0077ff;
+    text-transform: capitalize;
+    font-style: italic;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container .row p {
+
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: black;
+}
+
+.container .row .list-group {
+    padding: 50px;
+}
+
+.container .row .list-group li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+
+.container p {
+    font-size: 17px;
+    color: #0077ff;
+}
+
+.container .row h6 {
+    font-size: 20px;
+    color: #0077ff;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#oneb {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 40%;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.btn a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
+
+.oc {
+    margin-top: 100px;
+    background-color: #f8e9d0;
+    padding: 5px;
+}
+
+.oc h4 {
+    color: rgb(186, 99, 99);
+    margin-top: 10px;
+}
+
+.oc h1 {
+    color: #5D6B6B;
+    margin-top: 20px;
+}
+
+.oc p {
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 15px;
+    color: #0a0a0a;
+    font-weight: bold;
+}
+
+.container #or {
+    margin-top: 100px;
+}
+
+.row .he6 {
+    float: left;
+
+}
+
+#or img {
+    width: 100px;
+    height: 100px;
+}
+
+#or p {
+    color: rgb(20, 2, 29);
+
+}
+
+#or p span {
+    color: #5D6B6B;
+    font-size: 25px;
+}
+
+.to p {
+    color:red;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.to .row img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.to .row h4 {
+    font-size: 18px;
+    color: red;
+    margin-top: 20px;
+}
+
+.to .row p {
+    font-size: 17px;
+    padding: 10px;
+
+}
+
+.fc {
+    margin-top: 80px;
+    padding: 10px;
+    background-color: rgba(237, 220, 233, 0.3);
+
+}
+
+.fc .row h4 {
+
+    font-size: 23px;
+    font-weight: bold;
+    font-style: oblique;
+    color: red;
+}
+
+.fc .row p {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px;
+}
+
+.fc .row span {
+    color: black;
+}
+
+.fc .row p a {
+    font-size: 20px;
+    text-decoration: underline;
+    color: red;
+}
+
+.fc .row img {
+    margin-top: 80px;
+}
+
+.sc {
+    margin-top: 80px;
+    padding: 10px;
+}
+
+.sc h1 {
+    color: darkblue;
+}
+
+.sc a {
+
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+    color: red;
+}
+
+.sc .row img {
+    width: 100px;
+    height: 100px;
+}
+
+.sc .row h5 {
+    color: darkblue;
+    margin-top: 20px;
+    font-style: initial;
+}
+
+.ec {
+    background-color: #6d7386;
+    margin-top: 50px;
+    padding: 10px
+}
+
+.ec .row h4 {
+    color: white;
+    font-weight: bold;
+    font-style: oblique;
+    margin-top: 30px;
+}
+
+.ec .row h1 {
+    color: lavender;
+    margin-top: 15px;
+
+}
+
+.ec .row p {
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: unset;
+}
+
+.ec .row .ec1 {
+    margin-top: 50px;
+    background-color: #928670;
+}
+
+.ec .row .ec1 h4 {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.ec .row .ec1 h6 {
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 0px;
+    color: rgb(241, 230, 227);
+}
+
+.ec .row .ec1 p {
+    padding: 10px;
+    margin-top: 15px;
+    color: rgb(232, 219, 248);
+}
+
+.ec .row .ec1 span {
+    color: rgb(221, 237, 227);
+}
+
+.c1 {
+
+    margin-top: 70px;
+    padding: 10px;
+    background-color:rgba(121, 234, 240, 0.3);
+    
+
+}
+
+.c1 h4 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.c1 h1 {
+    color: RED;
+    margin-top: 20px;
+}
+
+.c1 p {
+    color: BLACK;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: oblique;
+    margin-top: 20px;
+}
+
+.c1 .cr {
+    margin-top: 80px;
+}
+
+.c1 .cr h3 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-right: 10px;
+    color: red;
+
+}
+
+.c1 .cr h3 img {
+    border-color: red;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+}
+
+.c1 .cr .oi {
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.tc {
+    margin-top: 70px;
+}
+
+.tc h4 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.tc h1 {
+    color: rgb(208, 208, 221);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.tc .row a {
+
+    font-size: 20px;
+    color: #4861A2;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    font-weight: bold;
+    background-color: rgba(114, 146, 226, 0.2);
+    ;
+}
+
+.tc .row a:hover {
+    background-color: black;
+    color: blanchedalmond;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.tc .row .onehi {
+    display: none;
+}
+
+.ed {
+    margin-top: 70px;
+    background-color: rgba(57, 112, 214, 0.1);
+    ;
+}
+
+.ed h4 {
+    color: darkblue;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+    text-transform: capitalize;
+}
+
+.ed h1 {
+    color: #4961A2;
+    font-size: 60px;
+    font-weight: bold;
+    font-style: initial;
+    text-transform: capitalize;
+}
+
+.ed .row {
+    margin-top: 70px;
+}
+
+.ed .row h4 {
+    color: #4861A2;
+    font-size: 20px;
+
+}
+
+.ed .row p {
+    padding: 10px;
+    font-size: 17px;
+}
+
+.lastd {
+    margin-top: 70px;
+    background-color: #485c9a;
+
+}
+
+.lastd .row h1 {
+    font-size: 40px;
+    font-style: oblique;
+    color: white;
+    font-weight: bold;
+}
+
+.lastd .row span {
+    color: rgb(130, 155, 238);
+}
+
+.lastd .row p {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 10px;
+
+}
+
+.lastd .row a {
+    color: white;
+    margin: 10px;
+
+}
+
+.lastd .row h2 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: initial;
+    margin-top: 15px;
+}
+
+.lastd .row ol {
+    color: rgb(211, 213, 205);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.lastd .row li a {
+    text-decoration: inherit;
+    color: #cbd3e1;
+    margin-top: 15px;
+    font-size: 15px;
+    
+}
+
+.lastd .row li {
+    margin: 30px;
+}
+
+.lastd .row .ono {
+    color: rgb(255, 255, 255);
+}
+
+.lastd .row .ono a {
+    color: #8FB2EC;
+    font-size: 15px;
+}
+
+.lastd .row .ont {
+    color: rgb(255, 255, 255);
+}
+
+.lastd .row .ont a {
+    color: #8FB2EC;
+    font-size: 15px;
+}
+
+.lastd .row .lp {
+    color: #8FB2EC;
+}
+
+.lastd .container .lp .fas {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.back-to-up {
+    font-size: 35px;
+}
+
+.container #about .fasi {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    color:#8FB2EC;
+    font-size: 100px;
+}
+
+.container #about .fasii {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    color: #8FB2EC;
+    font-size: 100px;
+
+}
+
+.container #about .fasiii {
+    position: absolute;
+    bottom: 50px;
+    left: 550px;
+    color: rgba(57, 112, 214, 0.652);
+    font-size: 100px;
+
+}
+
+
+
+#treatment .container .fasi {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    color: rgba(255, 255, 255, .5);
+    font-size: 100px;
+}
+
+#treatment .container .fasii {
+    position: absolute;
+    right: 200px;
+    ;
+    top: 50px;
+    color: rgba(255, 255, 255, .5);
+    font-size: 100px;
+}
+
+#treatment .container .fasiii {
+    position: absolute;
+    left: 500px;
+    top: 200px;
+    color: rgba(255, 255, 255, .5);
+    font-size: 100px;
+}
+
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    font-size: 35px;
+    border: none;
+    background-color: white;
+   
+ 
+   
+  }
+  #protectt{
+    background-color: white;
+  }
+  #soso{
+    color: rgba(207, 69, 69, 0.918);
+    font-family:fantasy;
+  }
+  #h55{
+    color: rgba(207, 69, 69, 0.918);
+    
+  }
+  #p1{
+    font-family: cursive;
+  }
+  #hh4{
+    color: brown;
+  }
